@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "commonjs": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": ["standard"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"]
+  },
+  "ignorePatterns": ["dist/*.js", "**/vendor/*.js"]
+}
